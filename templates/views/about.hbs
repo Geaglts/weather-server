@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="personal">
+            <div class="personal-picture">
+                <img src="/img/miguel.png" alt="personal profile picture" />
+            </div>
+            <div class="personal-data">
+                <h2>{{name}}</h2>
+                <p>Web developer</p>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div class="main-content">
+        {{>header}}
+        <p>Usa este sitio para obtener tu clima.</p>
+
+        <form class="search-location-form">
+            <input type="text" name="search" id="search" placeholder="locacion">
+            <button>buscar</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
